@@ -80,7 +80,7 @@ Schneider Logistics reports: "Truck 3980 broke down on I-95"
 - **AWS AI (GPT)** for intelligent decision-making
 - **MCP Protocol** for system communication
 
-![System Components](images/n8n-workflow.png)
+![System Components](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/n8nDiagram.png)
 
 ---
 
@@ -93,17 +93,24 @@ Schneider Logistics reports: "Truck 3980 broke down on I-95"
 **What Happened**:
 
 1. ✅ **Agent 1 analyzed** 3 possible routes
+![Finance Agent](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/FinancialAgent1.png)
+![Finance Agent Script](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/FinanceAgentScript.png)
    - Calculated penalties: $250, $500, and $1,750
+![Test Results](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/DeliveryDelay1.png)
    
 2. ✅ **Agent 2 selected** the $250 route (saved $500 vs next option)
+![Route Agent](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/RouteAgent1.png)
+![Route Agent Script](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/RouteAgentScript.png)
+![Test Results](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/DeliveryDelay2.png)
    
 3. ✅ **n8n coordinated** with all external systems
+![Test Results](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/n8nFinalMCP.png)
    
 4. ✅ **Status updated** from "pending" to "dispatched"
+![Test Results](https://github.com/bcjumpman/agentic-logistics-incident-response/blob/main/images/DeliveryDelay3.png)
 
 **Total time: 28 seconds** ⚡
 
-![Test Results](screenshots/agent1-test-results.png)
 
 ---
 
@@ -147,28 +154,4 @@ Schneider Logistics reports: "Truck 3980 broke down on I-95"
 4. **Real-time Dashboard** - Live monitoring of all deliveries
 5. **Updated Ticketing** - Incident ticket is auto updated
 
----
-
-
-## Quick Stats
-
-| Metric | Result |
-|--------|--------|
-| 💰 Annual Savings | $240,000 |
-| ⚡ Processing Speed | 30 seconds |
-| 🎯 Accuracy | 100% |
-| 📉 Error Reduction | 91% |
-| ⏱️ Time Saved | 1,250 hours/year |
-
----
-
-## The Bottom Line
-
-This system turns a 25-minute manual process into a 30-second automated workflow that:
-- ✅ Saves money ($240K/year)
-- ✅ Saves time (98% faster)
-- ✅ Reduces errors (91% improvement)
-- ✅ Improves customer service
-
-**Perfect for**: Supply chain operations, logistics companies, or any business dealing with time-sensitive deliveries.
 
