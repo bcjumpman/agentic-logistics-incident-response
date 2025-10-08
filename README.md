@@ -13,7 +13,7 @@ When a PepsiCo delivery truck breaks down, this system **automatically**:
 - 📞 Notifies everyone who needs to know
 - ✅ Tracks everything until the problem is solved
 
-**Time to resolve**: 30 seconds (instead of 25 minutes manually)
+**Time to resolve**: ~30 seconds (instead of ~25 minutes manually)
 
 ---
 
@@ -80,7 +80,7 @@ Schneider Logistics reports: "Truck 3980 broke down on I-95"
 - **AWS AI (GPT)** for intelligent decision-making
 - **MCP Protocol** for system communication
 
-![System Components](screenshots/n8n-workflow.png)
+![System Components](images/n8n-workflow.png)
 
 ---
 
